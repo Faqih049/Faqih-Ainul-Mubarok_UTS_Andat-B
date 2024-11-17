@@ -32,7 +32,7 @@ ggplot(dataandat, aes(x = as.factor(time_spend_company), y = satisfaction_level,
   labs(title = "Boxplot Tingkat Kepuasan Berdasarkan Lama Bekerja di Perusahaan",
        x = "Time Spent in Company",
        y = "Satisfaction Level")
-  scale_fill_brewer(palette = "Set3")
+
 
 #try the easy solution first
 library(dplyr)
